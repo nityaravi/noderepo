@@ -1,0 +1,7 @@
+steps:
+- name: node:$_NODE_VERSION
+  entrypoint: yarn
+  args: ['install']
+- name: node:$_NODE_VERSION
+  entrypoint: yarn
+  args: ['test']
